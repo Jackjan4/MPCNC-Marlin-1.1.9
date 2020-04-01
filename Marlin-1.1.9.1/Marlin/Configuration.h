@@ -606,6 +606,9 @@
 /**
  * Default Axis Steps Per Unit (steps/mm)
  * Override with M92
+ * 
+ * X/Y default: 200   : Applies with 6400 steps/rev (1/32th) microstepping
+ *              100   : Applies with 3200 steps/rev (1/16th) microstepping
  * Z default: 800     : Applies with 6400 steps/rev (1/32th) microstepping
  *            400     : Applies with 3200 steps/rev (1/16th) microstepping
  *            200     : Applies with 1600 steps/rev (1/8th) microstepping - results in 0,005mm accuracy 
@@ -614,7 +617,7 @@
  * 
  *                                      X, Y, Z, E0 [, E1[, E2[, E3[, E4]]]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 200, 500 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 200, 200, 200, 500 }
 
 /**
  * Default Max Feed Rate (mm/s)
