@@ -1558,8 +1558,8 @@
   #define USER_DESC_3 "Home Z"
   #define USER_GCODE_3 "G28 Z\nG1 Z21"
 
-  #define USER_DESC_4 "Setze Mitte"
-  #define USER_GCODE_4 "G1 X120 Y 120"
+  #define USER_DESC_4 "Fahre Mitte"
+  #define USER_GCODE_4 "G1 X120 Y120 F2000"
 #endif
 
 /**
