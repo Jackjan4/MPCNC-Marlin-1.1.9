@@ -1547,13 +1547,16 @@
 #if ENABLED(CUSTOM_USER_MENUS)
   #define USER_SCRIPT_DONE "M117 Fertig"
   //#define USER_SCRIPT_AUDIBLE_FEEDBACK
-  //#define USER_SCRIPT_RETURN  // Return to status screen after a script
+  #define USER_SCRIPT_RETURN  // Return to status screen after a script
 
   #define USER_DESC_1 "Home XY"
   #define USER_GCODE_1 "G28 X Y"
 
   #define USER_DESC_2 "Setze XY 0"
   #define USER_GCODE_2 "G92 X0 Y0"
+
+  #define USER_DESC_2 "Home Z"
+  #define USER_GCODE_2 "G28 Z\nG1 Z21"
 #endif
 
 /**
