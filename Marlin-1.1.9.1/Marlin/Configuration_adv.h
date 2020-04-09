@@ -1559,7 +1559,7 @@
   #define USER_GCODE_3 "G28 Z\nG1 Z21"
 
   #define USER_DESC_4 "Fahre Mitte"
-  #define USER_GCODE_4 "G1 X120 Y120 F2000"
+  #define USER_GCODE_4 "G1 X120 Y120 F8000"
 #endif
 
 /**
