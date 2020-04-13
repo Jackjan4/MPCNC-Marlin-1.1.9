@@ -1552,14 +1552,17 @@
   #define USER_DESC_1 "Home XY"
   #define USER_GCODE_1 "G28 X Y"
 
-  #define USER_DESC_2 "Setze XY 0"
-  #define USER_GCODE_2 "G92 X0 Y0"
+    #define USER_DESC_2 "Home Z"
+  #define USER_GCODE_2 "G28 Z\nG1 Z21 F500"
 
-  #define USER_DESC_3 "Home Z"
-  #define USER_GCODE_3 "G28 Z\nG1 Z21"
+  #define USER_DESC_3 "Setze XY 0"
+  #define USER_GCODE_3 "G92 X0 Y0"
 
   #define USER_DESC_4 "Fahre Mitte"
   #define USER_GCODE_4 "G1 X120 Y120 F8000"
+
+  #define USER_DESC_5 "Fahre Max"
+  #define USER_GCODE_5 "G1 X350 Y350 F8000"
 #endif
 
 /**
