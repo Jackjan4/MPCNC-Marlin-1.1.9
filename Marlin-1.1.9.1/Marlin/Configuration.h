@@ -123,7 +123,7 @@
  *
  * :[2400, 9600, 19200, 38400, 57600, 115200, 250000, 500000, 1000000]
  */
-#define BAUDRATE 115200     // ROSLAN: 250000 would theoretically work but we stay on 115200 for compatabily and stability purposes since we are very slow compared to 3D printers
+#define BAUDRATE 115200     // ROSLAN: 250000 would theoretically work but we stay on 115200 for compatability and stability purposes since we are very slow compared to 3D printers
 
 // Enable the Bluetooth serial interface on AT90USB devices
 //#define BLUETOOTH
